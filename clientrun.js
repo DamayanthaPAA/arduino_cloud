@@ -2,8 +2,8 @@ const { ArduinoIoTCloud } = require('arduino-iot-js');
 
 (async () => {
   const client = await ArduinoIoTCloud.connect({
-    deviceId: '9f760824-645c-4d53-ab13-78eec5822f84',
-    secretKey: 'xx?5z0mjsTTk60kF63ywtPH?5',
+    deviceId: '[]',
+    secretKey: 'insert_your_secret_key_here',
     onDisconnect: (message) => console.error(message),
   });
 
